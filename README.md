@@ -10,9 +10,7 @@ Some code in /include was taken from https://www.cs.unc.edu/~bbb/diss/
 ## Configurations
 
 The following are required to compile the code to run experiments:
-* gcc (we ran our experiments on ubuntu 14.04.4 with GCC 4.8.4,
-       and tested the artifact evaluation on package also on a machine
-       running Debian 3.10.7 with gcc 5.2.1)
+* gcc (we ran our experiments on ubuntu 18.04.5 with GCC 7.50)
 
 The following are required to visualize the results of experiments:
 * Python 2.7, Python3
