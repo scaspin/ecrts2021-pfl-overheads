@@ -9,7 +9,7 @@ for cslength in 0
 do
 	for numresources in 32
         do
-		for percwrites in 0 5 10 50 90 95
+		for percwrites in 0 1 5 10 50 90 95 100
 		do
 			for alg in 1 2
 			do

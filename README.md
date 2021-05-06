@@ -118,8 +118,11 @@ The processed files will be aggregated per-algorithm into a CSV file
 in $aedir/csvs/rw_alg_#.csv . This may take a couple of seconds or 
 minutes for larger number of trials.
 
-The plots will be placed in $aedir/plots/, and are labeled
-by figure.
+All plots will be placed in $aedir/plots/, and are labeled
+by write precentage.
+
+All plots in the paper are copied and renamed in $aedit/paperplots/
+and labeled by figure and inset.
 
 $aedir/scripts/cleanup.sh will delete all csv files and plots.
 
@@ -135,5 +138,6 @@ in $aedir/include/setup to divide by 100 instead.
 == Repeatable Experiments          ==
 =====================================
 
-The instructions above should reproduce the graphs for figure 7.
-For ease of comparison, directory "paperfigs" has plots reproduced by these experiments on the same machine.
+The instructions above should reproduce the graphs for figure 7
+into $aedir/paperplots/ . All additional plots can be seen in $aedir/plots
+For ease of comparison, directory "sampleplots" has plots reproduced by these experiments on the same machine.

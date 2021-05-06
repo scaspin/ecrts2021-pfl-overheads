@@ -19,7 +19,7 @@ python3 plots_rw.py
 echo "."
 
 #Rename files
-mv ../plots/read_overhead__cs=0.pdf ../plots/fig7d.pdf
-mv ../plots/total_overhead_req=32_percwrites=5_cslen=0.pdf ../plots/fig7b.pdf
-mv ../plots/total_overhead_req=32_percwrites=0_cslen=0.pdf ../plots/fig7a.pdf
-mv ../plots/total_overhead_req=32_percwrites=50_cslen=0.pdf ../plots/fig7c.pdf
+cp ../plots/read_overhead__cs=0.pdf ../paperplots/fig7d.pdf
+cp ../plots/total_overhead_req=32_percwrites=5_cslen=0.pdf ../paperplots/fig7b.pdf
+cp ../plots/total_overhead_req=32_percwrites=0_cslen=0.pdf ../paperplots/fig7a.pdf
+cp ../plots/total_overhead_req=32_percwrites=50_cslen=0.pdf ../paperplots/fig7c.pdf

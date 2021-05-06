@@ -129,6 +129,6 @@ def plotcs(cs: int):
     plt.close('all')
 
 if __name__ == "__main__":
-    for percwrites in [0,5,50]:
+    for percwrites in [0,1,5,10,50,90,95,100]:
         plot_cores(32, percwrites, 0)
     plotcs(0)
