@@ -52,7 +52,7 @@ artifact evaluation directory.
 3. Determine layout of physical core numbers on the sockets.    
 
     // Example (cores alternate on each socket):    
-    % cat /proc/cpuinfo | grep "physical id"    
+    `cat /proc/cpuinfo | grep "physical id"`    
     physical id     : 0    
     physical id     : 1    
     ...    
@@ -62,12 +62,13 @@ artifact evaluation directory.
 4. Determine the processor speed of the machine.    
 
     // Example:    
-    % lscpu | grep "CPU MHz:"    
+    `lscpu | grep "CPU MHz:"`    
     CPU MHz:               2297.579    
     
 5. Set the variables with "TODO"s in $aedir/include/setup.h.    
 
     // Example (36 physical cores on 2 sockets, alternating cores on each socket):    
+    ```
     #define TOTAL_CORES 36    
     #define NUM_SOCKETS 2    
     
@@ -79,19 +80,21 @@ artifact evaluation directory.
         // Socket 1
         1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35
     };
+    ```
 
 6. Set the processor speed in $aedir/src/to_csv_rw.py.    
 
     // Example:    
-    procSpeed = 2297.579    
+    `procSpeed = 2297.579`    
     
 7. Set up the experiments' core counts with "TODO"s in $aedir/scripts/setup.sh.    
 
     // Example (same as above, 36 physical cores on 2 sockets...):    
+    ```
     totalcores=36    
     numsockets=2    
     taskcounts=( 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 )    
-
+    ```
 
 ## Compilation
 
