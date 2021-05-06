@@ -127,6 +127,8 @@ and labeled by figure and inset.
 $aedir/scripts/cleanup.sh will delete all csv files and plots.
 
 All scripts in the scripts directory need to be run from the directory.
+Note some directories have a `placeholder.txt` file so that git will track
+them and running the experiments will be simpler.
 
 Note: You can set TRIALS in $aedir/include/setup.h to be 10000 to get more
 accurate data, but then the experiments will take longer to run.  Keep it
