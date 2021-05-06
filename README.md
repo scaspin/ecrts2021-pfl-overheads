@@ -1,5 +1,5 @@
 # ecrts2021-pfl-overheads
-Artifact evaluation code for overhead evaluation in ECRTS'21 "Light-Reading" 
+Artifact evaluation code for overhead experiments in ECRTS'21 paper "Light Reading: Optimizing Reader/Writer Locking1for Read-Dominant Real-Time Workloads" 
 
 Text (and code) in part was borrowed from Nemitz, Amert, and Anderson's 
 “Using Lock Servers to Scale Real-Time Locking Protocols: Chasing Ever-Increasing Core Counts” 
