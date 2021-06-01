@@ -81,8 +81,8 @@ def plot_cores(res: int, pw: int, cslen: int):
     plot_ob.set_xlabel("Number of cores")
     plot_ob.set_ylabel("Overhead (microseconds)")
     plot_ob.legend(loc='upper left',prop={'size': 12})
-    plot_ob.set_yticks([0,0.5,1,1.5,2,2.5,3])
-    plot_ob.set_ylim(0,3)
+    #plot_ob.set_yticks([0,0.5,1,1.5,2,2.5,3])
+    #plot_ob.set_ylim(0,3)
 
     fig5.set_size_inches(WIDTH, HEIGHT)
     plt.tight_layout()
@@ -120,8 +120,8 @@ def plotcs(cs: int):
     plot_o.set_xlabel("Number of cores")
     plot_o.set_ylabel("Overhead (microseconds)")
     plot_o.legend(loc='upper left', prop={'size': 12})
-    plot_o.set_yticks([0,0.2,0.4,0.6,0.8])
-    plot_o.set_ylim(0,0.8)
+    #plot_o.set_yticks([0,0.2,0.4,0.6,0.8])
+    #plot_o.set_ylim(0,0.8)
 
     fig4.set_size_inches(WIDTH, HEIGHT)
     plt.tight_layout()
