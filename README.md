@@ -14,7 +14,7 @@ The following are required to compile the code to run experiments:
 
 The following are required to visualize the results of experiments:
 * Python 2.7, Python3
-* matplotlib/numpy Python libraries
+* matplotlib/numpy and pandas Python libraries
 
 Our experiments are designed to run on a machine with multiple *sockets*,
 each with multiple cores.  For example, we ran the experiments in the paper
