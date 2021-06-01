@@ -14,7 +14,7 @@ The following are required to compile the code to run experiments:
 
 The following are required to visualize the results of experiments:
 * Python 2.7, Python3
-* matplotlib/numpy and pandas Python libraries
+* matplotlib, numpy, and pandas Python libraries
 
 Our experiments are designed to run on a machine with multiple *sockets*,
 each with multiple cores.  For example, we ran the experiments in the paper
@@ -117,7 +117,8 @@ The results will be aggregated into $aedir/csvs/alg#/
 
 The processed files will be aggregated per-algorithm into a CSV file
 in $aedir/csvs/rw_alg_#.csv . This may take a couple of seconds or 
-minutes for larger experiments.
+minutes for larger experiments (For one thousand trials, this took roughly 10 minutes
+on our platform, but may take up to 30 minutes with more trials).
 
 All plots will be placed in $aedir/plots/, and are labeled
 by write precentage.
